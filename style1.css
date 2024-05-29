@@ -1,0 +1,60 @@
+body{
+   background: black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100%;
+    margin:0;
+    
+}
+.head{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    max-width:90%;
+    align-items: center;
+    max-width:90%;
+   
+   height:100cqh;
+   margin-top: 50px;
+   margin-bottom:50px;   
+   align-items:center;
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+.quote{
+    font-style:italic;
+}
+.new{
+    text-align: center;
+    font-size: 40px;
+    
+}
+input{
+    text-align: center;
+    color:black;;
+    background-color: white;
+    border:none;
+    
+    width:250px;
+    height:20px;
+}
+.completed {
+    text-decoration: line-through;
+    color: black; /* Optional: Change the color of the completed task */
+}
+.delete{
+    border:none;
+    border-radius:50%;
+    color:white;
+    background-color: transparent;
+    font-weight:500;
+    margin-left:10px;
+    font-family: sans-serif;
+}
+.task{
+    margin-top:10px;
+    font-size: 20px;
+}
